@@ -12,7 +12,13 @@
         <img src="logo.png" alt="Aibelle Logo" class="logo">
         <br>
         <button class="klaviyo_form_trigger">Sign Up</button>
-    </header>
+        <script type="text/javascript">
+	document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
+		window._klOnsite = window._klOnsite || [];
+window._klOnsite.push(['openForm', 'WFFvi4']);
+	});
+</script>
+       </header>
     
     <main id="dashboard" class="hidden">
         <h2>Welcome Back!</h2>
